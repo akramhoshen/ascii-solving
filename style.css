@@ -1,0 +1,36 @@
+body {
+    background-color: #cadef3;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h2 {
+    color: #343a40;
+}
+
+.card {
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+input[type="text"], input[type="number"] {
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+}
